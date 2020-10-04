@@ -1,0 +1,19 @@
+.image
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    // margin: .3rem;
+    // position: relative;
+    opacity: 1;
+    &--small
+    {
+        width: 213px;
+        height: 213px;
+    }
+    &--circle
+    {
+        border-radius: 50%;
+        border:2px solid $gray-500;
+    }
+}

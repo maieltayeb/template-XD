@@ -1,0 +1,33 @@
+.btn
+{
+    border: 3px solid #D8D8D8;
+    border-radius: 4.2rem;
+    opacity: 1;  
+    color: $gray-200;
+    padding: 27.63px 32.13px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: $white;
+    //  font-size: 1.12rem;
+    cursor: pointer;
+
+    &--yel
+    {
+        background-color:$yellow;
+        border: none;
+        color: $blue-200;
+        &:hover
+        {
+            background-color:darken($yellow,5%);
+        }
+    }
+
+    &--lg{
+        padding:25px 100px ;
+         font-size: 2rem;
+      
+    } 
+    
+    
+}

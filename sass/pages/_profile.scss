@@ -1,0 +1,36 @@
+.profile{
+    border:1px solid black;
+    background-image: url('.././images/cover.jpg');
+    position: relative;
+    height: 304px;
+    border-radius: 21px 21px 0px 0px;
+    &--infoContainer{
+        position:absolute;
+        top: 130px;
+        left: 137px;
+        display: flex;
+        &--imgContainer{
+            box-shadow: 0px 3px 30px #00000033;
+            border-radius: 50%;
+        }
+        &--details{
+            margin-left: 58px;
+    margin-top: 62px;
+  
+    p{
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+      }
+      p:last-child{
+          font-style: Milliard;
+          font-size: 22px;
+          font-weight:normal;
+      }
+        }
+        &--icon{
+            margin-left: 24.6rem;
+            margin-top: 9.2rem;
+        }
+    }
+}
